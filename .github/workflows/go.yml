@@ -24,4 +24,4 @@ jobs:
     - name: Test
       run: |
         cd ./internal/app/query
-        go test -v service_test.go -test.run Service_GetConfig
+        go test -v service_test.go service.go config.go query.go repository.go -test.run Service_GetConfig
