@@ -1,0 +1,36 @@
+# binary
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+./bin/*
+*.pid
+*.test
+das
+
+# config
+.idea/
+*/.idea/
+.DS_Store
+config/das.yaml
+config/soar.yaml
+config/soar.blacklist
+test/*.json
+
+# output
+*.out
+log/
+*/*.log
+*.log
+
+#other
+archive/*
+release/*
+das.pid
+http-client.env.json
+.vscode/
+.test
+das.yaml
+
+note/*
