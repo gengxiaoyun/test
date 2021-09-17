@@ -1,0 +1,758 @@
+[2021-05-21 17:02:26.139042] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 56282, pid file: das.pid]
+[2021-05-21 17:02:46.368618] [ERROR] [reponse.go:17] [DAS-401013: healthcheck: check failed.  json: cannot unmarshal number into Go value of type string] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.Check
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:80
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-21 17:03:38.662778] [ERROR] [reponse.go:17] [DAS-400042: field server_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.Check
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-21 17:34:39.927853] [ERROR] [reponse.go:17] [DAS-400042: field server_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.Check
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-21 17:34:43.833479] [ERROR] [reponse.go:17] [DAS-400042: field server_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.Check
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-21 17:34:51.480836] [ERROR] [reponse.go:17] [DAS-400042: field server_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.Check
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-21 17:34:59.579123] [ERROR] [reponse.go:17] [DAS-400042: field server_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.Check
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-21 17:44:58.045607] [ERROR] [reponse.go:17] [DAS-400042: field server_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.Check
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-24 15:03:32.134583] [INFO] [process.go:145] [got operating system signal 2, this process will exit soon.]
+[2021-05-24 15:03:49.044778] [ERROR] [stop.go:66] [DAS-400026: get pid from pid file failed. pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+open /Users/gengxiaoyun/goproject/src/das/das.pid: no such file or directory] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:66
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:766
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:852
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:800
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:104
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-05-24 15:04:06.023026] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 57429, pid file: das.pid]
+[2021-05-24 15:16:09.923742] [INFO] [reponse.go:24] [DAS-200201: metadata: get database all completed]
+[2021-05-24 15:21:24.137226] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 57429, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-24 15:22:22.653688] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 57602, pid file: das.pid]
+[2021-05-25 16:41:31.599174] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 57602, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-25 16:41:35.067971] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 61169, pid file: das.pid]
+[2021-05-25 16:42:25.090145] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* dial tcp G:3306: i/o timeout
+	* dial tcp 192.168.10.210:3306: i/o timeout
+	* dial tcp 192.168.10.210:3306: i/o timeout
+	* dial tcp 192.168.10.210:3306: i/o timeout
+	* dial tcp 192.168.10.210:3306: i/o timeout
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:766
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:852
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:800
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:104
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-05-25 17:40:13.336093] [ERROR] [stop.go:74] [DAS-400025: kill server with pid file failed. pid: 61169, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+os: process already finished] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:74
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:766
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:852
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:800
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:104
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-05-25 17:40:18.819315] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 61439, pid file: das.pid]
+[2021-05-25 17:42:38.787009] [INFO] [reponse.go:24] [DAS-200201: metadata: get database all completed]
+[2021-05-25 17:42:49.736950] [ERROR] [reponse.go:17] [DAS-400042: field operation_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.GetResultByOperationID
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-25 17:49:04.489071] [ERROR] [reponse.go:17] [DAS-400042: field operation_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.GetResultByOperationID
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-25 17:57:48.853748] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 61439, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-25 17:57:52.118947] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 61585, pid file: das.pid]
+[2021-05-25 17:58:03.077312] [ERROR] [reponse.go:17] [DAS-400042: field operation_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.GetResultByOperationID
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-25 17:58:07.273685] [ERROR] [reponse.go:17] [DAS-400042: field operation_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.GetResultByOperationID
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-25 17:58:38.531580] [ERROR] [reponse.go:17] [DAS-400042: field operation_id does not exists. field name: %!s(MISSING)] [stack=
+github.com/romberli/das/pkg/resp.ResponseNOK
+	/Users/gengxiaoyun/goproject/src/das/pkg/resp/reponse.go:17
+github.com/romberli/das/api/v1/healthcheck.GetResultByOperationID
+	/Users/gengxiaoyun/goproject/src/das/api/v1/healthcheck/healthcheck.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+]
+[2021-05-25 17:59:21.565123] [INFO] [reponse.go:24] [DAS-200201: metadata: get database all completed]
+[2021-05-25 18:16:47.941982] [INFO] [reponse.go:24] [DAS-200202: metadata: get databases by environment completed. env_id: 2]
+[2021-05-25 18:20:15.213662] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 61585, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-25 18:20:18.689659] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 61710, pid file: das.pid]
+[2021-05-25 18:20:22.095921] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-25 18:38:04.168994] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 61710, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-25 18:39:43.128661] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 61866, pid file: das.pid]
+[2021-05-25 18:40:01.888934] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-25 18:42:49.634579] [ERROR] [start.go:69] [DAS-400021: pid file exists or server is still running. pid file: das.pid] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:69
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:766
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:852
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v0.0.3/command.go:800
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:104
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-05-25 18:43:09.984701] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 61866, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-25 18:43:15.838017] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 61990, pid file: das.pid]
+[2021-05-25 18:43:19.388021] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-26 09:15:56.120058] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 61990, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-26 09:16:20.575820] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 62251, pid file: das.pid]
+[2021-05-26 09:16:27.504216] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-26 09:25:53.618080] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 62251, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-26 09:26:09.557010] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 62339, pid file: das.pid]
+[2021-05-26 09:26:31.446093] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-26 09:39:44.994378] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 62339, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-26 09:39:48.582770] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 62420, pid file: das.pid]
+[2021-05-26 09:39:56.975806] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-26 09:45:27.896280] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-26 09:49:18.344294] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 62420, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-26 09:49:21.437205] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 62501, pid file: das.pid]
+[2021-05-26 09:59:48.569261] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 62501, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-26 09:59:52.670519] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 62576, pid file: das.pid]
+[2021-05-26 10:00:28.577658] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 62576, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-05-26 10:00:31.448893] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 62631, pid file: das.pid]
+[2021-05-26 10:00:34.126895] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id compeleted. operation_id: 1]
+[2021-05-26 10:05:21.001309] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 62631, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-06-04 13:36:14.260639] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 75802, pid file: das.pid]
+[2021-06-04 13:38:30.817456] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 75802, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-06-04 14:34:57.938226] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 76461, pid file: das.pid]
+[2021-06-04 14:35:01.632069] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id completed. operation_id: 1]
+[2021-06-04 14:49:35.878575] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id completed. operation_id: 1]
+[2021-06-04 14:53:48.219658] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 76461, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-06-04 14:53:52.604322] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 76587, pid file: das.pid]
+[2021-06-04 14:56:24.282390] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 76587, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-06-04 16:12:13.238762] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 76873, pid file: das.pid]
+[2021-06-04 16:12:19.527156] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id completed. operation_id: 1]
+[2021-06-04 16:12:53.261469] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 76873, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-06-04 16:12:57.228393] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 76933, pid file: das.pid]
+[2021-06-04 16:14:21.750021] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 76933, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-06-04 16:19:16.450762] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 77015, pid file: das.pid]
+[2021-06-04 16:19:19.604903] [INFO] [reponse.go:24] [DAS-201012: healthcheck: get result by operation id completed. operation_id: 1]
+[2021-06-04 16:20:55.097076] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 77015, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-08-24 15:32:54.981019] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 4206, pid file: das.pid]
+[2021-08-26 18:52:45.845087] [INFO] [process.go:145] [got operating system signal 1, this process will exit soon.]
+[2021-08-27 10:14:24.997553] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 7567, pid file: das.pid]
+[2021-09-01 10:18:18.213000] [ERROR] [start.go:69] [DAS-400021: pid file exists or server is still running. pid file: das.pid] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:69
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-01 10:18:30.172749] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 7567, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 10:18:37.454928] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 9716, pid file: das.pid]
+[2021-09-01 10:44:59.806237] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 9716, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 10:45:10.510338] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 9885, pid file: das.pid]
+[2021-09-01 14:42:32.218269] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 9885, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 14:42:55.452961] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 11220, pid file: das.pid]
+[2021-09-01 15:20:48.786752] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 11220, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 15:20:53.220265] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 11524, pid file: das.pid]
+[2021-09-01 15:20:53.223961] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-01 15:21:00.392680] [ERROR] [stop.go:74] [DAS-400025: kill server with pid file failed. pid: 11524, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+os: process already finished] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:74
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-01 15:21:28.611469] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 11573, pid file: das.pid]
+[2021-09-01 15:21:28.614394] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-01 15:26:14.049429] [ERROR] [stop.go:74] [DAS-400025: kill server with pid file failed. pid: 11573, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+os: process already finished] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:74
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-01 15:26:17.801864] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 11663, pid file: das.pid]
+[2021-09-01 15:26:17.812558] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* ERROR 1045 (28000): Access denied for user 'root'@'192.168.10.111' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'192.168.10.111' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'192.168.10.111' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'192.168.10.111' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'192.168.10.111' (using password: YES)
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-01 15:32:17.230243] [ERROR] [stop.go:74] [DAS-400025: kill server with pid file failed. pid: 11663, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+os: process already finished] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:74
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-01 15:32:21.051829] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 11749, pid file: das.pid]
+[2021-09-01 15:36:26.600502] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 11749, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 15:36:31.960548] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 11842, pid file: das.pid]
+[2021-09-01 15:53:13.307537] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 11842, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 15:53:18.343651] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 12075, pid file: das.pid]
+[2021-09-01 16:29:29.113566] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 12075, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 16:29:34.233325] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 12328, pid file: das.pid]
+[2021-09-01 16:41:13.413427] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 12328, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 16:41:31.615498] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 12443, pid file: das.pid]
+[2021-09-01 17:15:22.158568] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 12443, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 17:15:26.043394] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 12972, pid file: das.pid]
+[2021-09-01 18:01:48.125842] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 12972, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 18:01:51.688648] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 13177, pid file: das.pid]
+[2021-09-01 18:03:20.879086] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 13177, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 18:03:23.875386] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 13271, pid file: das.pid]
+[2021-09-01 18:06:24.286297] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 13271, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 18:06:27.306318] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 13401, pid file: das.pid]
+[2021-09-01 18:17:40.143653] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 13401, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-01 18:17:44.558501] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 13610, pid file: das.pid]
+[2021-09-02 09:15:58.069598] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 13610, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-02 09:16:06.196699] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 14431, pid file: das.pid]
+[2021-09-02 09:24:17.027357] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 14431, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-02 09:24:29.459293] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 14543, pid file: das.pid]
+[2021-09-02 09:51:33.661922] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 14543, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-02 09:56:41.939317] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 14689, pid file: das.pid]
+[2021-09-02 13:06:52.026042] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 14689, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-02 13:07:05.183911] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 15655, pid file: das.pid]
+[2021-09-03 13:28:50.634728] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 15655, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-03 13:33:27.273717] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 18062, pid file: das.pid]
+[2021-09-03 13:44:33.962869] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 18062, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-03 13:44:42.165626] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 18228, pid file: das.pid]
+[2021-09-03 15:25:33.804019] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 18228, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-03 16:18:20.518530] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 18929, pid file: das.pid]
+[2021-09-03 16:36:38.765856] [INFO] [stop.go:79] [DAS-200002: das stopped successfully. pid: 18929, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid]
+[2021-09-03 16:39:48.254966] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 19113, pid file: das.pid]
+[2021-09-03 16:39:48.257880] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-03 16:41:37.493044] [ERROR] [stop.go:74] [DAS-400025: kill server with pid file failed. pid: 19113, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+os: process already finished] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:74
+github.com/spf13/cobra.(*Command).execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/Users/gengxiaoyun/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-03 16:41:45.439902] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 19172, pid file: das.pid]
+[2021-09-07 15:03:21.581979] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 2547, pid file: das.pid]
+[2021-09-07 15:03:21.585611] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-07 15:03:33.023052] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 2578, pid file: das.pid]
+[2021-09-07 15:03:33.025731] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-07 15:03:47.439528] [ERROR] [stop.go:74] [DAS-400025: kill server with pid file failed. pid: 2578, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+os: process already finished] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:74
+github.com/spf13/cobra.(*Command).execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-07 15:03:56.060259] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 2628, pid file: das.pid]
+[2021-09-07 15:03:56.063399] [ERROR] [start.go:111] [DAS-400038: init connection pool failed.
+5 errors occurred:
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+	* ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+
+] [stack=
+github.com/romberli/das/cmd.glob..func2
+	/Users/gengxiaoyun/goproject/src/das/cmd/start.go:111
+github.com/spf13/cobra.(*Command).execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-07 15:04:54.062432] [ERROR] [stop.go:74] [DAS-400025: kill server with pid file failed. pid: 2628, pid file: /Users/gengxiaoyun/goproject/src/das/das.pid
+os: process already finished] [stack=
+github.com/romberli/das/cmd.glob..func4
+	/Users/gengxiaoyun/goproject/src/das/cmd/stop.go:74
+github.com/spf13/cobra.(*Command).execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:854
+github.com/spf13/cobra.(*Command).ExecuteC
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:958
+github.com/spf13/cobra.(*Command).Execute
+	/var/root/goproject/pkg/mod/github.com/spf13/cobra@v1.1.1/command.go:895
+github.com/romberli/das/cmd.Execute
+	/Users/gengxiaoyun/goproject/src/das/cmd/root.go:114
+main.main
+	/Users/gengxiaoyun/goproject/src/das/main.go:32
+runtime.main
+	/usr/local/go/src/runtime/proc.go:225
+]
+[2021-09-07 15:04:58.783166] [INFO] [start.go:106] [DAS-200001: das started successfully. pid: 2684, pid file: das.pid]

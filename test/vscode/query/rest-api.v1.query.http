@@ -1,0 +1,28 @@
+@baseURL = 127.0.0.1:6090
+
+### query.GetByMySQLClusterID
+GET http://{{baseURL}}/api/v1/query/cluster/:mysqlClusterID 
+Accept: application/json
+
+{"startTime": "...", "endTime":"...","limit":0,"offset":0}
+
+### query.GetByMySQLServerID
+GET http://{{baseURL}}/api/v1/query/server/:mysqlServerID
+Accept: application/json
+
+{"startTime": "...", "endTime":"...","limit":0,"offset":0}
+
+### query.GetByDBID
+GET http://{{baseURL}}/api/v1/query/db/:dbID
+Accept: application/json
+
+{"startTime": "...", "endTime":"...","limit":0,"offset":0,"mysql_server_id":0}
+
+### query.GetByMySQLSQLID
+GET http://{{baseURL}}/api/v1/query/:sqlID
+Accept: application/json
+
+{"startTime": "...", "endTime":"...","limit":0,"offset":0,"mysql_server_id":0}
+
+
+
