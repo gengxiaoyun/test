@@ -8,6 +8,7 @@ pipeline {
                     ls
                     pwd
                     rm -f go.mod
+                    go mod init ./
                     cd internal/app/query
                     go test -v service_test.go service.go config.go query.go repository.go -test.run Service_GetConfig
                 '''
