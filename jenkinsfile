@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin', "GOPATH=${WORKSPACE}"]) {
+                sh'''
+                    ls
+                    cd internal/app/query
+                    pwd
+                    go env
+                    go help modules
+                    go build
+                    go test -v service_test.go service.go config.go query.go repository.go -test.run Service_GetConfig
+                '''
+                }
+            }
+        }
+    }
+}
