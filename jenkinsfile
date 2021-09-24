@@ -5,7 +5,6 @@ pipeline {
             steps {
                 withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin', "GOPATH=${WORKSPACE}"]) {
                 sh'''
-                    $GOPATH
                     ls
                     pwd
                     cd internal/app/query
