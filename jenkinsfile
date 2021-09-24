@@ -7,6 +7,7 @@ pipeline {
                 sh'''
                     ls
                     pwd
+                    rm -rf go.mod go.sum
                     cd internal/app/query
                     go test -v service_test.go service.go config.go query.go repository.go -test.run Service_GetConfig
                 '''
