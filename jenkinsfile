@@ -8,6 +8,7 @@ pipeline {
                     ls
                     pwd
                     rm -f go.mod
+                    ls
                     go mod init github.com/gengxiaoyun/test
                     go mod tidy
                     go build
