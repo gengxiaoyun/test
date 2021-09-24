@@ -7,7 +7,7 @@ pipeline {
                 sh'''
                     ls
                     pwd
-                    del /q/a/f go.mod
+                    rm -f go.mod
                     go mod init github.com/gengxiaoyun/test
                     go mod tidy
                     go build
