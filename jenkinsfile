@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin', "GOPATH=${WORKSPACE}"]) {
+                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh'''
                     ls
                     pwd
                     rm -rf go.mod go.sum
                     go env
-                    cd %GOPATH%/src/
-                    git clone https://github.com/romberli/das
+                    go mod init github.com/romberli/das
+                    go mod tidy
                     cd internal/app/query
                     go test -v service_test.go -test.run Service_GetConfig
                 '''
