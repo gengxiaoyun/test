@@ -9,7 +9,8 @@ pipeline {
                     pwd
                     rm -rf go.mod go.sum
                     go env
-                    go get -u github.com/romberli/das
+                    go get -u github.com/gpmgo/gopm
+                    gopm get -g github.com/romberli/das
                     cd internal/app/query
                     go test -v service_test.go -test.run Service_GetConfig
                 '''
