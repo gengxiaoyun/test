@@ -10,7 +10,7 @@ replace (
 require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/asaskevich/govalidator v0.0.0-20200819183940-29e1ff8eb0bb
-	github.com/gin-gonic/gin v1.7.2
+	github.com/gin-gonic/gin v1.7.4
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/hashicorp/go-version v1.2.0
 	github.com/jinzhu/now v1.1.2
