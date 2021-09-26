@@ -7,9 +7,7 @@ pipeline {
                 sh'''
                     ls
                     pwd
-                    rm -rf go.mod go.sum
                     go env
-                    go mod init github.com/romberli/das
                     cd internal/app/query
                     go test -v service_test.go -test.run Service_GetConfig
                 '''
