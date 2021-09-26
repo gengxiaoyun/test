@@ -9,7 +9,7 @@ pipeline {
                     pwd
                     rm -rf go.mod go.sum
                     go env
-                    cd /d %GOPATH%/src/
+                    cd %GOPATH%/src/
                     git clone https://github.com/romberli/das
                     cd internal/app/query
                     go test -v service_test.go -test.run Service_GetConfig
