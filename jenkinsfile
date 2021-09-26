@@ -10,7 +10,6 @@ pipeline {
                     rm -rf go.mod go.sum
                     go env
                     go mod init github.com/romberli/das
-                    go mod tidy
                     cd internal/app/query
                     go test -v service_test.go -test.run Service_GetConfig
                 '''
