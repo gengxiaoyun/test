@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin:/usr/share/']) {
+                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh'''
                     ls
                     pwd
